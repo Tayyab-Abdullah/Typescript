@@ -46,7 +46,14 @@ console.log(mySize);
 // Objects
 
 
-let employee = {
+let employee: {
+    readonly id: number,  //Readonly can be used to only access value
+    name: string,
+    retire: (date: Date) => void
+} = {
     id: 1,
-    name: 'Tayyab'
+    name: 'Tayyab',
+    retire: (date: Date) => {
+        console.log(date)
+    } 
 };
