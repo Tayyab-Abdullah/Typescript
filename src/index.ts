@@ -41,3 +41,12 @@ const enum Size { Small = 1, Medium, Large}; // if we set string value then we h
 let mySize:Size = Size.Medium; 
 
 console.log(mySize);
+
+
+// Objects
+
+
+let employee = {
+    id: 1,
+    name: 'Tayyab'
+};
