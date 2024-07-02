@@ -24,3 +24,20 @@ let user: [number, string] = [1, 'abc'];
 user.push(1);
 
 console.log("Users: ", user);
+
+
+// Enum Datatype
+
+
+// const small = 1;  Old Way
+// const medium = 2;
+// const large = 3;
+
+// Pascal Case
+const enum Size { Small = 1, Medium, Large}; // if we set string value then we have to explicitly assign each value
+
+//used const for generating more optimized js file
+
+let mySize:Size = Size.Medium; 
+
+console.log(mySize);

@@ -10,4 +10,7 @@ array2[0] = 1;
 let user = [1, 'abc'];
 user.push(1);
 console.log("Users: ", user);
+;
+let mySize = 2;
+console.log(mySize);
 //# sourceMappingURL=index.js.map
