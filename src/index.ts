@@ -1,7 +1,7 @@
-let age: number = 20;
+let sales = 200_600_700;
 
-if(age < 50)
-    age+=20;
+let course: string = "TypeScript";
 
-console.log(age)
+let is_published = true;
 
+let level;
