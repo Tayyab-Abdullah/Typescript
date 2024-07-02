@@ -57,3 +57,5 @@ let employee: {
         console.log(date)
     } 
 };
+
+console.log("Employee Object: ", employee);

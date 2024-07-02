@@ -13,4 +13,13 @@ console.log("Users: ", user);
 ;
 let mySize = 2;
 console.log(mySize);
+let employee = {
+    id: 1,
+    name: 'Tayyab',
+    retire: (date) => {
+        console.log(date);
+    }
+};
+console.log("Employee Object: ", employee);
+console.log("Retire Function:", employee.retire);
 //# sourceMappingURL=index.js.map
